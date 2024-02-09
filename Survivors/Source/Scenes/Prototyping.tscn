@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://4snhj1hu6v3t"]
+
+[ext_resource type="PackedScene" uid="uid://cagk5ec6vfvxo" path="res://Source/Prefabs/Units/Player.tscn" id="1_jxtcp"]
+
+[node name="Prototyping" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_jxtcp")]
+position = Vector2(2, 0)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
